@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <title>Games</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html">
+            Games
+            <i class="fas fa-gamepad logo"></i>
+        </a>
+
+        <i id="menu-btn" class="fas fa-bars" onclick="show()"></i>
+    </header>
+
+    <div class="page-container">
+        <aside id="side-menu">
+            <a href="../index.html">Home</a>
+            <a href="./events.html">Events</a>
+            <a href="./contacts.html">Contacts</a>
+        </aside>
+
+        <main>
+            <h2 class="title">Contacts</h2>
+
+            <div class="row">
+                <div class="col-50">
+                    <h3>Contact us if:</h3>
+                    <ul class="contact-list">
+                        <li>You want to add to add a new game to the list</li>
+                        <li>You want to add a review for a game</li>
+                        <li>You want to add more info about a game</li>
+                        <li>You want to add an event</li>
+                        <li>You want to know about new conventions</li>
+                    </ul>
+                </div>
+
+                <div class="col-50">
+                    <h3>Contact details:</h3>
+                    <ul class="contact-list">
+                        <li><b>Adress:</b> str.Albisoara 4</li>
+                        <li><b>Phone:</b> +373 79204430</li>
+                        <li><b>Email:</b> games@games.com</li>
+                        <li><b>Working hours:</b> Mon-Fri, 10:00-18:00</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-50">
+                    <iframe class="map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2720.299452778685!2d28.8557773!3d47.0147268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c97c1705e42271%3A0x768f65eb6b6655ed!2sAlbisoara%20St%204%2C%20MD-2001%2C%20Chi%C8%99in%C4%83u!5e0!3m2!1sen!2s!4v1708532410456!5m2!1sen!2s"
+                    width="600" height="450" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+        
+                <div class="col-50">
+                    <div class="contact-form">
+                        <form>
+                            <h3 class="message-form">Leave a message</h3>
+                            <input type="text" placeholder="Name" required>
+                            <input type="email" placeholder="Emai" required>
+                            <textarea placeholder="Message" rows="3" required></textarea>
+                            <input type="submit" value="Send">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer></footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>
